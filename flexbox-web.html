@@ -16,7 +16,36 @@
         <h1>ALL ABOUT FLEXBOX</h1>
         
         <div class="">
-            <h2>Justify-Content: Aligns items horizontally (main-axis)</h2>
+            <h2>Display: flex;</h2>
+            <ul>
+                <li>Placed on the parent element of the elements (children inside) you want to affect
+                </li>
+                <li>Parent element is known as a flex container 
+                </li>
+                <li>Element/items inside the flex container are flex items 
+                </li>
+                <li>Allows the container and it’s children to have flex properties, but the container reserves the row < – >, since it is taken out of the normal flow of the doc/webpage
+                </li>
+                <li>You can’t place 2 flexbox container in the same row 
+                </li>
+            </ul>
+        </div>
+        
+        <div class="">
+            <h2>Display: inline-flex;</h2>
+            <ul>
+                <li>Lays out elements children as flex items, but have the element behave like an inline element 
+                </li>
+                <li>Parent element is known as a flex container 
+                </li>
+                <li>Allows the element and it’s children, to have flex properties while still remaining in the regular flow of the doc/webpage
+                </li>
+                <li>You can place 2 or more (depending on screen size) inline flex containers in the same row < – >
+                </li>
+            </ul>
+        </div>
+        <div class="">
+            <h2>Justify-Content: Aligns items horizontally (main/y-axis: main start/main end)</h2>
             <ul>
                 <li>flex-start: Items align to the left side of the container</li>
                 <li>flex-end: Items align to the right side of the container</li>
@@ -27,7 +56,7 @@
         </div>
         
         <div class="">
-            <h2>Align-Items: Aligns items vertically</h2>
+            <h2>Align-Items: Aligns items vertically (cross/y-axis: cross start/cross end)</h2>
             <ul>
                 <li>
                     Determines how the items as a whole are aligned within the container
@@ -72,7 +101,7 @@
         </div>
         
         <div class="">
-            <h2>Flex-Row: Shorthand property for < Flex-direction > and < Flex-wrap > (combined)</h2>
+            <h3>Flex-Row: Shorthand property for < Flex-direction > and < Flex-wrap > (combined)</h3>
             <ul>
                  <li>Two properties separated by a space (no specific order)></li>
             </ul>
