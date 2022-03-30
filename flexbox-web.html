@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        
+        <title>Flexbox</title>
+    </head>
+    <body>
+        <!-- HTML -->
+        <h1>ALL ABOUT FLEXBOX</h1>
+        
+        <div class="">
+            <h2>Justify-Content: Aligns items horizontally (main-axis)</h2>
+            <ul>
+                <li>flex-start: Items align to the left side of the container</li>
+                <li>flex-end: Items align to the right side of the container</li>
+                <li>center: Items align at the center of the container</li>
+                <li>space-between: Items display with equal spacing between them</li>
+                <li>space-around: Items display with equal spacing around them</li>
+            </ul>
+        </div>
+        
+        <div class="">
+            <h2>Align-Items: Aligns items vertically</h2>
+            <ul>
+                <li>
+                    Determines how the items as a whole are aligned within the container
+                </li>
+            </ul>
+            <h3>Align-Self (individual/flex-child): Overrides align-items/value for specific item</h3>
+            <ul>
+                <li>flex-start: Items align to the top of the container</li>
+                <li>flex-end: Items align to the bottom of the container</li>
+                <li>center: Items align at the vertical center of the container</li>
+                <li>baseline: Items display at the baseline of the container (invisible line that txt sits on)</li>
+                <li>stretch: Items are stretched to fit the container</li>
+            </ul>
+        </div>
+        
+        <div class="">
+            <h2>Flex-Direction: Direction items are placed in the container</h2>
+            <ul>
+                <li>row: Items are placed the same as the text direction</li>
+                <li>row-reverse: Items are placed opposite to the text direction</li>
+                <li>column: Items are placed top to bottom</li>
+                <li>justify-content → vertical/align-items → horizontal</li>
+            </ul>
+        </div>
+        
+        <div class="">
+            <h2>Order: Specifies the order of an individual (flex) item</h2>
+            <ul>
+                <li>Format: <integer> (... -1, 0 (default), 1, …)</li>
+                <li>Negative #’s: Left</li>
+                <li>Positive #’s: Right</li>
+            </ul>
+        </div>
+        
+        <div class="">
+            <h2>Flex-Wrap: Specifies whether flex items are forced on a single line/wrapped/multiple lines</h2>
+            <ul>
+                <li>Nowrap: All items are squished into a single line</li>
+                <li>Wrap: Items wap around to additional lines (for more space)</li>
+                <li>Wrap-reverse: Items wrap around in to additional lines in reverse</li>
+            </ul>
+        </div>
+        
+        <div class="">
+            <h2>Flex-Row: Shorthand property for < Flex-direction > and < Flex-wrap > (combined)</h2>
+            <ul>
+                 <li>Two properties separated by a space (no specific order)></li>
+            </ul>
+        </div>
+        
+         <div class="">
+            <h2>Align-Content: Determines the spacing between lines</h2>
+            <ul>
+                <li>If there is only 1 line, it has no effect</li>
+                <li>flex-start: Lines are packed at the top of the container</li>
+                <li>flex-end: Lines are packed at the bottom of the container</li>
+                <li>center: Lines are packed at the vertical center of the container</li>
+                <li>space-between: Lines display with equal spacing between them</li>
+                <li>space-around: Lines display with equal spacing around them</li>
+                <li>stretch: Lines are stretched to fit the container</li>
+            </ul>
+        </div>
+        <!-- JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
